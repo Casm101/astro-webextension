@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Astro WebExtension Template",
+    "version": "1.0",
+    "description": "description",
+    "action": {
+      "default_icon": "favicon.svg",
+      "default_popup": "popup/index.html"
+    },
+    "options_ui": {
+      "page": "options/index.html",
+      "open_in_tab": true
+    },
+    "devtools_page": "devtools/index.html",
+    "icons": {
+      "16": "favicon.svg",
+      "48": "favicon.svg",
+      "128": "favicon.svg"
+    },
+    "permissions": [
+      "tabs",
+      "storage",
+      "activeTab"
+    ],
+    "host_permissions": [
+      "*://*/*"
+    ]
+  }

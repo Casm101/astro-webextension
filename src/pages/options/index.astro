@@ -1,0 +1,52 @@
+<main class="viewport-options">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 13.5V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 9.75V10.5" />
+    </svg>
+    <p class="title">Options panel</p>
+    <p class="description">This is the options panel.</p>
+    <p class="footer">
+        <span>Powered by Astro</span>
+        <span>
+            <img src="/astro-logo.png" alt="Astro logo">
+        </span>
+    </p>
+</main>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .viewport-options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+        height: 100vh;
+        width: 100vw;
+    }
+
+    svg {
+        height: 48px;
+        width: 48px;
+    }
+
+    .title {
+        font-size: 1.1rem;
+    }
+    .description {
+        color: #9da3aa;
+    }
+    .footer {
+        display: flex;
+        gap: 0.25rem;
+    }
+
+    .footer img {
+        height: 1rem;
+    }
+</style>
